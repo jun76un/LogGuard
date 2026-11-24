@@ -1,0 +1,20 @@
+========== LogGuard Report ==========
+Analysis time: 2026-11-25 06:26:34.357863
+Total logs: 15
+Successful logins: 4
+Failed logins: 11
+
+========== IP Statistics ==========
+192.168.0.10 | SUCCESS: 1 | FAIL: 1
+192.168.0.15 | SUCCESS: 0 | FAIL: 5
+192.168.0.20 | SUCCESS: 1 | FAIL: 0
+192.168.0.25 | SUCCESS: 0 | FAIL: 4
+192.168.0.30 | SUCCESS: 2 | FAIL: 0
+192.168.0.40 | SUCCESS: 0 | FAIL: 1
+
+========== Repeated Failure Detection ==========
+[WARNING] 192.168.0.15 - 5 failed attempts
+[WARNING] 192.168.0.25 - 4 failed attempts
+
+========== Time-based Attack Detection ==========
+[HIGH RISK] 192.168.0.15 - 5 or more failures within 1 minute
